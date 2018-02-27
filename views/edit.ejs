@@ -1,0 +1,17 @@
+<form action="/clients/update/<%= model.id %>" method="post">
+<h1>Update Record</h1>
+<div class="form-group">
+    <label for="">First Name:</label>
+    <input type="text" name="first_name" value="<%= model.first_name %>" id="txtFName" class="form-control">
+</div>
+<div class="form-group">
+    <label for="">Last Name:</label>
+    <input type="text" name="last_name" value="<%= model.last_name %>" id="txtLName" class="form-control">
+</div>
+<div class="form-group">
+    <label for="">Email:</label>
+    <input type="text" name="email" id="txtEmail" value="<%= model.email %>" class="form-control">
+</div>
+<button class="btn btn-success">Update Record</button>
+</form>
+
